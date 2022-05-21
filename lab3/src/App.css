@@ -1,0 +1,37 @@
+
+@import url("../node_modules/bootstrap/dist/css/bootstrap.css");
+
+img{
+    width: 500px;
+}
+
+body{
+    background-color: rgb(14, 3, 3);
+}
+
+.home{
+    width: 100%;
+    min-height: 100%;
+    background-image: url("../public/imagesDay3/cover.png");
+    background-size: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+}
+
+.homeBtn{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 150px;
+}
+
+.album-images{
+    width: 300px;
+}
+
+.background{
+    background-color: rgb(14, 3, 3);
+}
